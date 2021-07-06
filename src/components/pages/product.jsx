@@ -33,9 +33,9 @@ export default function Product(){
                         <p className="price">Price: ₹{data.price*quantity}</p>
                         <p className="quantity">Select Quantity</p>
                         <ul className="quantity">
-                            <li className="selection" onClick={(()=>{setQuantity(1), selected(1)})}>1</li>
-                            <li className="selection" onClick={(()=>{setQuantity(2), selected(2)})}>2</li>
-                            <li className="selection" onClick={(()=>{setQuantity(3), selected(3)})}>3</li>
+                            <li className="selection" onClick={()=>{setQuantity(1), selected(1)}}>1</li>
+                            <li className="selection" onClick={()=>{setQuantity(2), selected(2)}}>2</li>
+                            <li className="selection" onClick={()=>{setQuantity(3), selected(3)}}>3</li>
                         </ul>
                         <a id="order" href={data.display ? data.display.amazonLinks[quantity - 1] : null}>
                             Order on Amazon
