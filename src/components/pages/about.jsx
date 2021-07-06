@@ -2,7 +2,7 @@ import {Cards, Card} from 'react-cool-cards'
 
 export default function About(){
     const settings = {
-        width: '400px',
+        width: '300px',
         height: 'max-content',
         margin: '20px',
         style: 'custom',

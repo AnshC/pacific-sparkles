@@ -3,6 +3,8 @@ import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import FadeIn from 'react-fade-in';
 
+import ScrollToTop from './components/scrolltotop';
+
 import Home from './components/pages/home';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
@@ -15,6 +17,7 @@ function App() {
   return (
     <FadeIn>
     <Router>
+    <ScrollToTop />
       <div className="App">
         <Navbar />
         <Switch>

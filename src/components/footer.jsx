@@ -24,7 +24,7 @@ export default function Footer(){
                             <p className="phone">
                                 +91 9414134320 
                             </p>
-                            <p className="mail"><a id="mail-link" href="mailto:pacificsparklesconsumercare@gmail.com">pacificsparklesconsumercare@gmail.com</a></p>
+                            <p className="mail"><a id="mail-link" href="mailto:pacificsparklesconsumercare@gmail.com">Email Us!</a></p>
                         </div>
                     </div>
                     <div className="col">

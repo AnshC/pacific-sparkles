@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import {faSeedling, faHandSparkles, faHeart} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import Tilty from 'react-tilty';
 
 export default function Home(){
     return(
@@ -27,24 +26,21 @@ export default function Home(){
                                 </div>
                             </div>
                             <div className="products-wrapper">
-                                <Tilty className="product-card ajmer-card" style={{ transformStyle: 'preserve-3d' }}>
+                                <div className="product-card ajmer-card" onClick={()=>{window.location.replace('/products/rose')}}>
                                         <img src="/img/products/shop/Ajmer Rose Soap.png" alt="Ajmer Rose" className="product-img img-z1"/>
-                                        <img src="/img/products/shop/Ajmer Rose.png" alt="Ajmer Rose 2nd Image" className="product-img img-z2"/>
                                         <h2 className="product-name">Ajmer Rose Soap</h2>
                                         <div className="product-info">MRP ₹250</div>
-                                </Tilty>
-                                <Tilty className="product-card charcoal-card" style={{ transformStyle: 'preserve-3d' }}>
+                                </div>
+                                <div className="product-card charcoal-card" onClick={()=>{window.location.replace('/products/charcoal')}}>
                                         <img src="/img/products/shop/Charcoal Soap.png" alt="Charcoal" className="product-img img-z1"/>
-                                        <img src="/img/products/shop/Charcoal.png" alt="Charcoal 2nd Image" className="product-img img-z2"/>
                                         <h2 className="product-name">Charcoal Soap</h2>
                                         <div className="product-info">MRP ₹250</div>
-                                </Tilty>
-                                <Tilty className="product-card birchwood-card" style={{ transformStyle: 'preserve-3d' }}>
+                                </div>
+                                <div className="product-card birchwood-card" onClick={()=>{window.location.replace('/products/birchwood_oudh')}}>
                                         <img src="/img/products/shop/Birchwood Soap.png" alt="Birchwood" className="product-img img-z1"/>
-                                        <img src="/img/products/shop/Birchwood.png" alt="Birchwood 2nd Image" className="product-img img-z2"/>
                                         <h2 className="product-name">Birchwood Soap</h2>
                                         <div className="product-info">MRP ₹250</div>
-                                </Tilty>
+                                </div>
                             </div>
                             <Link to="/shop" className="additional-content">View All Products</Link> 
                         </div>
