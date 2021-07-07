@@ -18,6 +18,7 @@ export default function Navbar(){
         })
         for(var i = 0; i < navlink.length; i++){
             navlink[i].addEventListener('click',()=>{
+                menu.classList.toggle('toggle')
                 navbar.classList.toggle('navbar-active')
                 navwrapper.classList.toggle('nav-wrapper-active');
                 navlinks.classList.toggle('nav-active')
