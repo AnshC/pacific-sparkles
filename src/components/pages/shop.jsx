@@ -5,7 +5,7 @@ export default function Shop(){
     const products = Products.data;
     return(
         <div className="shop">
-            <div className="nnc"></div>
+
             <div className="main">
                 <section className="products">
                     {

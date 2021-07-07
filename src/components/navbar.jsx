@@ -11,6 +11,7 @@ export default function Navbar(){
         const navlink = document.getElementsByClassName('nav-link')
 
         menu.addEventListener('click',()=>{
+            menu.classList.toggle('toggle')
             navbar.classList.toggle('navbar-active')
             navwrapper.classList.toggle('nav-wrapper-active');
             navlinks.classList.toggle('nav-active')
@@ -32,9 +33,9 @@ export default function Navbar(){
                     <h2 className="subhead">Sparkles</h2>
                 </div>
                 <div className="nav-menu">
-                    <div className="menu-line"></div>
-                    <div className="menu-line"></div>
-                    <div className="menu-line" id="special"></div>
+                    <div className="menu-line menu-line-1"></div>
+                    <div className="menu-line menu-line-2"></div>
+                    <div className="menu-line menu-line-3" id="special"></div>
                 </div>
                 <ul className="nav-links">
                     <Link className="nav-link" to="/">HOME</Link>

@@ -110,6 +110,17 @@ body {
   height: 3px;
   background-color: white;
   margin: 3px;
+  transition: all 0.3s ease-in;
+}
+
+.toggle .menu-line-1 {
+  transform: rotate(-45deg) translate(-5px,7px);
+}
+.toggle .menu-line-2 {
+  opacity: 0;
+}
+.toggle .menu-line-3 {
+  transform: rotate(45deg) translate(-5px,-7px);
 }
 
 /* Responsive Nav CSS */
@@ -686,6 +697,7 @@ section.our-soaps .img-wrapper{
   width: 100%;
   min-height: 100vh;
   padding-top: 12vh;
+  background-image: linear-gradient(to right,var(--brandcolordark), var(--brandcolor));
 }
 
 .shop section.products{
