@@ -12,6 +12,7 @@ import About from './components/pages/about';
 import Shop from './components/pages/shop';
 import Editorial from './components/pages/editorial';
 import Product from './components/pages/product';
+import NotFound from './components/404';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route component={Shop} path="/shop"/>
           <Route component={Editorial} path="/blog"/>
           <Route component={Product} path="/products/:product" />
+          <Route component={NotFound} path="*" />
         </Switch>
         <Footer />
       </div>

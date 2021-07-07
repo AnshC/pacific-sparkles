@@ -933,6 +933,43 @@ section.our-soaps .img-wrapper{
   color:lightslategrey;
 }
 
+/* Not Found Styles */
+
+.not-found .main {
+  padding-top: 12vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.not-found .main .head {
+  font-family: 'Inter';
+  font-weight: 800;
+  color: var(--brandcolordark);
+}
+
+.not-found .main * {
+  font-family: 'Inter';
+}
+
+.not-found .content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.not-found .main ul {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.not-found .link {
+  color: var(--brandcolordark);
+}
+
 /* Footer Styling */
 
 .footer .wrapper{
