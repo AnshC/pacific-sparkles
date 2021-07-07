@@ -47,7 +47,7 @@ export default function Footer(){
                                 <Link to="/"className="footer-link">Home</Link>
                                 <Link to="/about"className="footer-link">About Us</Link>
                                 <Link to="/shop"className="footer-link">Shop</Link>
-                                <Link to="/editorial"className="footer-link">Editorial</Link>
+                                <Link to="/blog"className="footer-link">Editorial</Link>
                             </div>
                         </div>
                     </div>
