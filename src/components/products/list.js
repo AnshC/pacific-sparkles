@@ -119,7 +119,9 @@ export const Products = {
             display: {
                 fullDescription: "Activated charcoal is known for its detoxifying properties as it helps draw out dirt,  impurities, and toxins to fight clogged pores. Made from coconut shell, activated charcoal  and peppermint oil, the soap balances pH levels by getting rid of excess oil, leaving your  skin smooth and refreshing. The soap may help with acne gradually as it gently exfoliates  and deeply cleanses skin by removing dead cells. This soap is suitable for sensitive skin.",
                 amazonLinks: [
-                    "","",""
+                    "https://www.amazon.in/Pacific-Sparkles-Handmade-Charcoal-120grm/dp/B08Y8WXZFD/ref=sr_1_12?dchild=1&keywords=pacific+sparkles&qid=1627113776&sr=8-12",
+                    "https://www.amazon.in/PACIFIC-SPARKLES-ACTIVATED-CHARCOAL-125grm/dp/B08P1PFSMT/ref=sr_1_4?dchild=1&keywords=pacific+sparkles&qid=1627113776&sr=8-4",
+                    "https://www.amazon.in/PACIFIC-SPARKLES-ACTIVATED-CHARCOAL-125grm/dp/B08P1PFSMT/ref=sr_1_4?dchild=1&keywords=pacific+sparkles&qid=1627113776&sr=8-4"
                 ],
                 ingredients: [
                     "Olive Oil", 
