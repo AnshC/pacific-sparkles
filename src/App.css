@@ -53,11 +53,31 @@ body {
 
 /* Navbar Styles */
 .navbar{
+  /* Margin Only for promotional Element */
+    margin-top: 15px;
+  /**/
   overflow: hidden;
   width: 100%;
   position: absolute;
   z-index: 1;
   height: 12vh;
+}
+
+.promotion {
+  z-index: 3;
+  color: white;
+  font-family: 'Inter';
+  text-align: center;
+  padding-top:5px;
+  padding-bottom:5px;
+  background-color: var(--brandcolordark);
+  position: absolute;
+  width: 100%;
+}
+
+.promotion .link {
+  font-family: 'Inter';
+  color: var(--brandcolorlight);
 }
 
 .nav-wrapper{
@@ -154,6 +174,8 @@ body {
     height: 100vh;
     position: fixed;
     background-color: black;
+    z-index: 4;
+    margin-top: 0;
   }
 
   .nav-active{

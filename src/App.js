@@ -1,6 +1,6 @@
 import './App.css';
 
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import FadeIn from 'react-fade-in';
 
 import ScrollToTop from './components/scrolltotop';
@@ -20,6 +20,9 @@ function App() {
     <Router>
     <ScrollToTop />
       <div className="App">
+            <div className="promotion">
+                30% Off On All Soaps. <Link to="/shop" className="link">Shop Now.</Link>
+            </div>
         <Navbar />
         <Switch>
           <Route component={Home} path="/" exact/>
