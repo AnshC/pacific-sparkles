@@ -495,6 +495,7 @@ section.our-soaps .img-wrapper{
   justify-content: center;
   flex-direction: column;
   cursor: pointer;
+  padding-bottom: 20px;
 }
 
 .home .products-wrapper{
@@ -536,10 +537,14 @@ section.our-soaps .img-wrapper{
 
 .home .product-info{
   margin-top: 10px;
-  margin-bottom: 20px;
   transform: translateZ(30px);
   font-size: 17px;
   text-align: center;
+}
+
+.home .price-secondary, .home strike {
+  color: grey ;
+  font-family: lato ;
 }
 
 .home .shop .additional-content{
