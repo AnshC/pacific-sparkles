@@ -5,7 +5,7 @@ export const Products = {
             type: "Bath Soap",
             id: "chocolate",
             special: "Coco powder/butter",
-            price: 250,
+            price: 175,
             imgsrc: "/img/products/shop/Chocolate",
             description: "Chocolate not only pleases the taste buds, but has soothing effects on skin. Make your  daily grooming more radiant and relaxing with our Chocolate Soap packed with antioxidants.",
             display: {
@@ -32,7 +32,7 @@ export const Products = {
             type: "Bath Soap",
             id: "lemongrass",
             special: "lemon grass essential oil/Citronella oil eucalyptus oil",
-            price: 250,
+            price: 175,
             imgsrc: "/img/products/shop/Lemon Grass",
             description: "Made from carefully selected Lemongrass Essential Oil and Citronella Oil along with the goodness of Eucalyptus Oil, Lemongrass soap has refreshing and energising effects on  body and mind.",
             display: {
@@ -59,7 +59,7 @@ export const Products = {
             type: "Bath Soap",
             id: "birchwood_oudh",
             special: "agar wood essential oil",
-            price: 250,
+            price: 175,
             imgsrc: "/img/products/shop/Birchwood",
             description: "Birchwood Oud Soap not only soothes the mind and body, but nourishes the soul. Made  from agarwood essential oil, the soap has psychoactive properties that takes you to a  spiritual journey of inner peace, consciousness and positive energy.",
             display: {
@@ -86,7 +86,7 @@ export const Products = {
             type: "Bath Soap",
             id: "rose",
             special: "rose essential oil",
-            price: 250,
+            price: 175,
             imgsrc: "/img/products/shop/Ajmer Rose",
             description: "Exquisite fragrance of real roses is the key feature of Rose Soap. Made from the best  quality rose essential oil, the soap moisturises and hydrates skin and visibly reduces the  signs of ageing.",
             display: {
@@ -113,7 +113,7 @@ export const Products = {
             type: "Bath Soap",
             id: "charcoal",
             special: "Coconut shell activated charcoal peppermint oil",
-            price: 250,
+            price: 175,
             imgsrc: "/img/products/shop/Charcoal",
             description: "Activated charcoal is known for its detoxifying properties as it helps draw out dirt,  impurities, and toxins to fight clogged pores.",
             display: {
@@ -140,7 +140,7 @@ export const Products = {
             type: "Bath Soap",
             id: "rajnighandha",
             special: "tuberose oil",
-            price: 250,
+            price: 175,
             imgsrc: "/img/products/shop/Rajnighandha",
             description: "Made from tuberose essential oil, Rajnigandha soap has invigorating effects on your skin.  Just like the flower Rajnigandha, the soap retains its aroma till the end of the bar and  makes your everyday grooming refreshing.",
             display: {
