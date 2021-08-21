@@ -858,6 +858,11 @@ section.our-soaps .img-wrapper{
   color: var(--brandcolordark);
 }
 
+.product-page .content .price-secondary, .product-page .content strike {
+  color: grey ;
+  font-family: lato ;
+}
+
 .product-page .content p.quantity {
   font-family: Lato;
   font-size: 20px;
