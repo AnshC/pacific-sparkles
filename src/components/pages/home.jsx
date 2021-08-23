@@ -29,19 +29,19 @@ export default function Home(){
                                 <div className="product-card ajmer-card" onClick={()=>{window.location.replace('/products/rose')}}>
                                         <img src="/img/products/shop/Ajmer Rose Soap.png" alt="Ajmer Rose" className="product-img img-z1"/>
                                         <h2 className="product-name">Ajmer Rose Soap</h2>
-                                        <div className="product-info">MRP ₹175</div>
+                                        <div className="product-info">MRP ₹250</div>
                                         <p className="price-secondary">30% Off (<strike>₹250</strike> ₹175)</p>
                                 </div>
                                 <div className="product-card charcoal-card" onClick={()=>{window.location.replace('/products/charcoal')}}>
                                         <img src="/img/products/shop/Charcoal Soap.png" alt="Charcoal" className="product-img img-z1"/>
                                         <h2 className="product-name">Charcoal Soap</h2>
-                                        <div className="product-info">MRP ₹175</div>
+                                        <div className="product-info">MRP ₹250</div>
                                         <p className="price-secondary">30% Off (<strike>₹250</strike> ₹175)</p>
                                 </div>
                                 <div className="product-card birchwood-card" onClick={()=>{window.location.replace('/products/birchwood_oudh')}}>
                                         <img src="/img/products/shop/Birchwood Soap.png" alt="Birchwood" className="product-img img-z1"/>
                                         <h2 className="product-name">Birchwood Soap</h2>
-                                        <div className="product-info">MRP ₹175</div>
+                                        <div className="product-info">MRP ₹250</div>
                                         <p className="price-secondary">30% Off (<strike>₹250</strike> ₹175)</p>
                                 </div>
                             </div>
