@@ -21,7 +21,6 @@ function App() {
     <ScrollToTop />
       <div className="App">
             <div className="promotion">
-                30% Off On All Soaps. <Link to="/shop" className="link">Shop Now.</Link>
             </div>
         <Navbar />
         <Switch>
