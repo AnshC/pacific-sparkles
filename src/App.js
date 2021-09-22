@@ -20,8 +20,8 @@ function App() {
     <Router>
     <ScrollToTop />
       <div className="App">
-            <div className="promotion">
-            </div>
+            {/* <div className="promotion">
+            </div> */}
         <Navbar />
         <Switch>
           <Route component={Home} path="/" exact/>
