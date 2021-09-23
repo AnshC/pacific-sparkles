@@ -20,9 +20,9 @@ function App() {
     <Router>
     <ScrollToTop />
       <div className="App">
-            <div className="promotion">
+            {/*<div className="promotion">
                 30% Off On All Soaps. <Link to="/shop" className="link">Shop Now.</Link>
-            </div>
+            </div>*/}
         <Navbar />
         <Switch>
           <Route component={Home} path="/" exact/>

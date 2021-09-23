@@ -32,7 +32,7 @@ export default function Product(){
                         <h1 className="head">{data.name}</h1>
                         <p className="type">{data.type}</p>
                         <p className="price">Price: ₹{data.price*quantity}</p>
-                        <p className="price-secondary">30% Off (<strike>₹250</strike> ₹175)</p>
+                        <p className="price-secondary discount"></p>
                         <p className="quantity">Select Quantity</p>
                         <ul className="quantity">
                             <li className="selection" onClick={()=>{selected(1)}}>1</li>
